@@ -279,6 +279,7 @@ h1.heading-requirement {
 .table-requirement {
   border-collapse: collapse;
   max-width: 575px;
+  overflow-x: scroll;
 }
 
 p.heading-requirement {
@@ -441,7 +442,7 @@ ul.footer-links-items a,
   padding: 0 20px;
 }
 
-.footer li.links a {
+.footer li.links {
   border-right: 1px solid #fff;
 }
 
