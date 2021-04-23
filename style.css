@@ -53,7 +53,7 @@ a.navbar-brand {
 .jumbotron {
   background-image: url("images/Group\ 1.png");
   background-size: cover;
-  /* background-position: center; */
+  background-position: center;
   font-family: "Neue", sans-serif;
   margin-top: -80px;
   height: 150vh;
@@ -121,6 +121,7 @@ span img {
 section.about {
   background-image: url("images/bg-2.png");
   background-size: cover;
+  background-position: center;
   font-family: "Neue", sans-serif;
   position: relative;
   top: -2px;
@@ -170,6 +171,7 @@ section.feature {
 
 .section-feature {
   background-image: url("images/bg-3.png");
+  object-fit: cover;
   background-size: cover;
   height: 100%;
 }
@@ -279,7 +281,6 @@ h1.heading-requirement {
 .table-requirement {
   border-collapse: collapse;
   max-width: 575px;
-  overflow-x: scroll;
 }
 
 p.heading-requirement {
