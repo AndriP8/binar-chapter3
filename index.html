@@ -33,16 +33,16 @@
           <div class="collapse navbar-collapse d-md-block justify-content-md-around text-center text-md-start" id="navbarText">
             <ul class="navbar-nav ms-5 ms-md-0">
               <li class="nav-item">
-                <a class="nav-link pe-5 text-white" href="#">HOME</a>
+                <a class="nav-link pe-5 text-white" href="#home">home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link pe-5 text-white" href="#">WORK</a>
+                <a class="nav-link pe-5 text-white" href="#work">work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link pe-5 text-white" href="#">FEATURE</a>
+                <a class="nav-link pe-5 text-white" href="#contact">contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link pe-5 text-white" href="#">ABOUT ME</a>
+                <a class="nav-link pe-5 text-white" href="#aboutMe">about me</a>
               </li>
             </ul>
             <div class="login text-center" id="navbarNav">
@@ -60,7 +60,7 @@
         </div>
         <div class="footer-main mb-4">
           <div class="footer-content mx-auto text-center">
-            <a href="#" class="text-decoration-none text-white">The story</a>
+            <a href="#aboutMe" class="text-decoration-none text-white">The story</a>
             <img src="images/scroll down.svg" class="d-block mx-auto" alt="" />
           </div>
         </div>
@@ -68,11 +68,11 @@
     </header>
 
     <!-- section image about -->
-    <section class="about" id="about">
+    <section class="about" id="aboutMe">
       <div class="section-about">
         <div class="container container-fluid">
           <div class="row page-about">
-            <div class="col-lg-3 text-white ps-3 p-sm-0 text-about">
+            <div class="col-lg-4 text-white ps-3 p-sm-0 text-about">
               <h3>What’s so special?</h3>
               <h1>THE GAMES</h1>
             </div>
@@ -109,7 +109,7 @@
     <!-- end section about -->
 
     <!-- section feature -->
-    <section class="feature">
+    <section class="feature" id="feature">
       <div class="section-feature container-fluid">
         <div class="row content-feature">
           <div class="col-lg-6 d-none d-lg-block"></div>
@@ -160,40 +160,41 @@
             SYSTEM <br />
             REQUIREMENTS
           </h1>
-          <div class="table-responsive overflow-scroll">
-            <table class="table table-requirement table-bordered border-secondary">
-              <tbody>
-                <tr>
-                  <td>
-                    <p class="heading-requirement">os:</p>
-                    <p class="requirement">Windows 7 64-bit only (No OSX support at this time)</p>
-                  </td>
-                  <td>
-                    <p class="heading-requirement">processor:</p>
-                    <p class="requirement">Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p class="heading-requirement">memory:</p>
-                    <p class="requirement">4 GB RAM</p>
-                  </td>
-                  <td>
-                    <p class="heading-requirement">storage:</p>
-                    <p class="requirement">8 GB available space</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2">
-                    <p class="heading-requirement">graphics:</p>
-                    <p class="requirement">
-                      NVIDIA GeForce GTX 660 2GB or <br />
-                      AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="row py-3">
+            <div class="col col-lg-6 row-requirements">
+              <div class="row row-xs m-0">
+                <div class="col col-border-right">
+                  <p class="heading-requirement">os:</p>
+                  <p class="requirement">
+                    Windows 7 64-bit only <br />
+                    (No OSX support at this time)
+                  </p>
+                </div>
+                <div class="col col-border-top">
+                  <p class="heading-requirement">processor:</p>
+                  <p class="requirement">Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ</p>
+                </div>
+              </div>
+              <div class="row row-xs m-0 row-border-top">
+                <div class="col col-border-right">
+                  <p class="heading-requirement">memory:</p>
+                  <p class="requirement">4 GB RAM</p>
+                </div>
+                <div class="col col-border-top">
+                  <p class="heading-requirement">storage:</p>
+                  <p class="requirement">8 GB available space</p>
+                </div>
+              </div>
+              <div class="row m-0 row-border-top">
+                <div class="col">
+                  <p class="heading-requirement">graphics:</p>
+                  <p class="requirement">
+                    NVIDIA GeForce GTX 660 2GB or <br />
+                    AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -308,7 +309,7 @@
               <div class="glass me-3">
                 <div class="inner-glass-subscribe">
                   <p class="m-0 email-addres">Your email addres</p>
-                  <p class="m-0">youremail@binar.co,id</p>
+                  <p class="m-0 email">youremail@binar.co.id</p>
                 </div>
               </div>
               <div class="button-subscribe">
